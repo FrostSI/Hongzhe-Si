@@ -1,15 +1,8 @@
-﻿  Building.cpp
-C:\Users\loves\Downloads\CrashLoyal-master\CrashLoyal\src\Building.h(12,30): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-  CrashLoyal.cpp
-C:\Users\loves\Downloads\CrashLoyal-master\CrashLoyal\src\Building.h(12,30): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-  GameState.cpp
-C:\Users\loves\Downloads\CrashLoyal-master\CrashLoyal\src\Building.h(12,30): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-  Mob.cpp
-C:\Users\loves\Downloads\CrashLoyal-master\CrashLoyal\src\Building.h(12,30): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-C:\Users\loves\Downloads\CrashLoyal-master\CrashLoyal\src\Mob.cpp(181,55): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
-C:\Users\loves\Downloads\CrashLoyal-master\CrashLoyal\src\Mob.cpp(219,55): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
-  正在生成代码...
-  CrashLoyal.vcxproj -> C:\Users\loves\Downloads\CrashLoyal-master\Debug\CrashLoyal.exe
+﻿  Mob.cpp
+C:\Documents\GitHub\Hongzhe-Si\CrashLoyal\src\Building.h(12,30): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Documents\GitHub\Hongzhe-Si\CrashLoyal\src\Mob.cpp(177,55): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+C:\Documents\GitHub\Hongzhe-Si\CrashLoyal\src\Mob.cpp(215,55): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+  CrashLoyal.vcxproj -> C:\Documents\GitHub\Hongzhe-Si\Debug\CrashLoyal.exe
   复制了 0 个文件
   复制了 0 个文件
   复制了 0 个文件

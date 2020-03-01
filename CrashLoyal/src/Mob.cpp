@@ -155,15 +155,11 @@ bool Mob::targetInRange() {
 //  1) return a vector of mobs that we're colliding with
 //  2) handle collision with towers & river 
 std::shared_ptr<Mob> Mob::checkCollision() {
-
 	float radius = 2;
-
 	for (std::shared_ptr<Mob> otherMob : GameState::mobs) {
 		// don't collide with yourself
 		if (this->sameMob(otherMob)) { continue; }
-
 		// PROJECT 3: YOUR CODE CHECKING FOR A COLLISION GOES HERE
-
 		if (otherMob->pos.insideOf(this->pos, ((this->GetSize() + otherMob->GetSize()) * radius))) {
 			//std::cout << this->uuid << ": " << "Collide" << std::endl;
 			return std::shared_ptr<Mob>(otherMob);
